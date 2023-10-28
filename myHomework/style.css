@@ -9,11 +9,11 @@ body, html {
 }
 
 #bgVideo {
-    position: fixed; /* Changed from absolute to fixed to keep the video in place even on scroll */
+    position: fixed; 
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
     width: auto;
     height: auto;
     z-index: -100;
@@ -25,5 +25,5 @@ body, html {
 
 .content {
     z-index: 100;
-    color: white; /* If you want the text to be white */
+    color: white; 
 }
