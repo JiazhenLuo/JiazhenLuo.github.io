@@ -9,18 +9,18 @@ body, html {
 }
 
 #bgVideo {
-    position: fixed; 
+    width: 70%; /* Adjust as needed */
+    height: auto; /* Keeps aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Centering the video vertically */
     top: 50%;
-    left: 50%;
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    overflow: hidden;
-    transition: 1s opacity;
+    transform: translateY(-50%);
+}
+
+body {
+    overflow: hidden; /* To hide vertical scroll caused by vertical centering */
 }
 
 .content {
